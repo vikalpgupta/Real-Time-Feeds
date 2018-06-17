@@ -1,8 +1,8 @@
 import React from 'react';
 import Comments from "./Comments";
 
-const TimeLine = () => {
-    const { timeline, sendPost } = this.props;
+const TimeLine = (props) => {
+    const { timeline, sendPost } = props;
 
     return timeline && timeline.length ? <div>
         {timeline.map(function (post) {
