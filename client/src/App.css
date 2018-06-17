@@ -1,0 +1,45 @@
+.App {
+    width: 600px;
+    margin: 0 auto;
+}
+
+button {
+    background-color: #4267b2;
+    padding: 11px 15px;
+    color: white;
+    width: 20%;
+}
+
+button[disabled] {
+    background-color: gray;
+}
+
+.post {
+    border: 1px solid black;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+input {
+    padding: 10px;
+    width: 80%;
+}
+
+.user-id {
+    font-size: 13px;
+    color: #4267b2;
+    margin-right: 10px;
+}
+
+.user-text {
+    font-size: 13px;
+}
+
+.comment, .reply {
+    font-size: 11px;
+}
+
+.comment-container, .reply-container {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
