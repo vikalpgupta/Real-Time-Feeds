@@ -6,5 +6,5 @@ How to install
 2. Go inside client directory again do a npm install or yarn install
 3. Go back to root repository and do a yarn dev
 
-Important
+#Important
 Considering new session if there is no userId available in session storage, new users considered in case of application opening in new tab.
